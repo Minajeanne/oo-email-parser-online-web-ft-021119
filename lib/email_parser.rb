@@ -11,13 +11,13 @@ class EmailParser
     @emails = emails 
   end
   
-  def parse(emails) 
-    
+  def parse
+    @emails = 
     @emails.uniq 
    end
   end
   
 end
 
-# # emails.each do |email|
-#     email = email.split(',')
+# emails.each do |email|
+# email = email.split(',')
