@@ -15,7 +15,7 @@ class EmailParser
   def parse 
     
     
-    parse.uniq 
+    @emails.uniq 
   end
   
 end
