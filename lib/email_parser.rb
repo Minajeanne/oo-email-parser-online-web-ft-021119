@@ -15,6 +15,7 @@ class EmailParser
     emails.each do |email|
     email = email.split(',')
     # @emails.uniq 
+   end
   end
   
 end
