@@ -12,7 +12,7 @@ class EmailParser
   end
   
   def parse
-    @emails = 
+    @emails = emails.gsub()
     @emails.uniq 
    end
   end
